@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #f7b42c, #fc575e);
+    background: linear-gradient(135deg, #f7b42c, #670a0e);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -33,9 +33,9 @@ body {
 .popup h2 {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #ff4e50;
+    color: #c62779;
     margin-bottom: 10px;
-    text-shadow: 0 0 10px rgba(255, 78, 80, 0.8);
+    text-shadow: 0 0 10px rgba(184, 172, 186, 0.8);
 }
 
 .popup p {
@@ -127,7 +127,7 @@ header h1 {
 .project a {
     font-size: 1rem;
     color: white;
-    background: #ff4e50;
+    background: #088253;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
@@ -135,7 +135,7 @@ header h1 {
 }
 
 .project a:hover {
-    background: #c72137;
+    background: #000000;
 }
 
 /* Footer */
@@ -195,4 +195,26 @@ footer p:hover {
 /* Align buttons properly */
 .project a {
     margin-right: 10px;
+}
+.project a.owner-link {
+    background: #6c757d;
+    color: white;
+}
+
+.project a.owner-link:hover {
+    background: #5a6268;
+}
+.project a.owner-link {
+    background: #007bff; /* Blue background */
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a.owner-link:hover {
+    background: #0056b3; /* Darker blue on hover */
 }
