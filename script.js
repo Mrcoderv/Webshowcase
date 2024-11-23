@@ -13,34 +13,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add Projects Dynamically
     const projects = [
-        {
-            title: "Table.html by raghav",
-            description: "This project show that table .",
-            codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/table.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/table.html",
-            owner: { username: "https://github.com/Mrcoderv", name: "Raghav" }, // GitHub username and owner name
-        },
-        {
-            title: "table2 by raghav ",
-            description: "table example.",
-            codeLink: "https://github.com/example/project2-code",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/table2.html",
-            owner: { username: "https://github.com/Mrcoderv", name: "Raghav" }, // GitHub username and owner name
-        },
-        {
-            title: "Table example 3 by samyog",
+       {
+            title: "Table example  by samyog",
             description: "table example .",
             codeLink: "https://github.com/example/html&css.html",
             htmlLink: "https://mrcoderv.github.io/Web-tech-/html&css.html",
-            owner: { username: "https://github.com/samyog7901", name: "samyog" }, // GitHub username and owner name
+            owner: { username: "samyog7901", name: "samyog" }, // GitHub username and owner name
         },
         {
             title: "Employee Salary Dashboard by samyog ",
            description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
           codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/app.html", // Replace with your actual code URL
          htmlLink: "https://mrcoderv.github.io/Web-tech-/app.html", // Replace with the hosted HTML link
-            owner: { username: "https://github.com/samyog7901", name: "Samyog " }, // GitHub username and owner name
+            owner: { username: "samyog7901", name: "Samyog " }, // GitHub username and owner name
+        },  {
+            title: "Table.html by raghav",
+            description: "This project show that table .",
+            codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/table.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/table.html",
+            owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
+        {
+            title: "table2 by raghav ",
+            description: "table example.",
+            codeLink: "https://github.com/example/project2-code",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/table2.html",
+            owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
+        },
+       
     ];
 
     const projectList = document.getElementById("project-list");
