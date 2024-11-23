@@ -14,32 +14,32 @@ document.addEventListener("DOMContentLoaded", () => {
     // Add Projects Dynamically
     const projects = [
         {
-            title: "Table.html",
-            description: "This project showcases a modern website design.",
-            codeLink: "https://github.com/example/project1-code",
-            htmlLink: "https://github.com/example/project1-html",
-            owner: { username: "user1", name: "Samyog" }, // GitHub username and owner name
+            title: "Table.html by raghav",
+            description: "This project show that table .",
+            codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/table.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/table.html",
+            owner: { username: "https://github.com/Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
         {
-            title: "Project Title 2",
-            description: "A web app to manage tasks efficiently.",
+            title: "table2 by raghav ",
+            description: "table example.",
             codeLink: "https://github.com/example/project2-code",
-            htmlLink: "https://github.com/example/project2-html",
-            owner: { username: "user2", name: "Alex" }, // GitHub username and owner name
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/table2.html",
+            owner: { username: "https://github.com/Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
         {
-            title: "Project Title 3",
-            description: "An AI-powered chatbot application.",
-            codeLink: "https://github.com/example/project3-code",
-            htmlLink: "https://github.com/example/project3-html",
-            owner: { username: "user3", name: "Jordan" }, // GitHub username and owner name
+            title: "Table example 3 by samyog",
+            description: "table example .",
+            codeLink: "https://github.com/example/html&css.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/html&css.html",
+            owner: { username: "https://github.com/samyog7901", name: "samyog" }, // GitHub username and owner name
         },
         {
-            title: "Employee Salary Dashboard",
-            description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
-            codeLink: "https://github.com/example/salary-dashboard-code",
-            htmlLink: "https://example.com/salary-dashboard-html",
-            owner: { username: "user4", name: "Sophia" }, // GitHub username and owner name
+            title: "Employee Salary Dashboard by samyog ",
+           description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
+          codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/app.html", // Replace with your actual code URL
+         htmlLink: "https://mrcoderv.github.io/Web-tech-/app.html", // Replace with the hosted HTML link
+            owner: { username: "https://github.com/samyog7901", name: "Samyog " }, // GitHub username and owner name
         },
     ];
 
