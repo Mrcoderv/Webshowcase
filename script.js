@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => { 
     // Create Welcome Popup
     const popup = document.getElementById("welcome-popup");
     popup.innerHTML = `
@@ -15,33 +15,32 @@ document.addEventListener("DOMContentLoaded", () => {
     const projects = [
         {
             title: "Table.html",
-            owner:"samyog",
             description: "This project showcases a modern website design.",
             codeLink: "https://github.com/example/project1-code",
             htmlLink: "https://github.com/example/project1-html",
+            owner: { username: "user1", name: "Samyog" }, // GitHub username and owner name
         },
         {
             title: "Project Title 2",
-            owner:"samyog",
             description: "A web app to manage tasks efficiently.",
             codeLink: "https://github.com/example/project2-code",
             htmlLink: "https://github.com/example/project2-html",
+            owner: { username: "user2", name: "Alex" }, // GitHub username and owner name
         },
         {
             title: "Project Title 3",
-            owner:"samyog",
             description: "An AI-powered chatbot application.",
             codeLink: "https://github.com/example/project3-code",
             htmlLink: "https://github.com/example/project3-html",
+            owner: { username: "user3", name: "Jordan" }, // GitHub username and owner name
         },
         {
-    title: "Employee Salary Dashboard ",
-    owner:"samyog",
-    description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
-    codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/app.html", // Replace with your actual code URL
-    htmlLink: "https://mrcoderv.github.io/Web-tech-/app.html" // Replace with the hosted HTML link
-},
-
+            title: "Employee Salary Dashboard",
+            description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
+            codeLink: "https://github.com/example/salary-dashboard-code",
+            htmlLink: "https://example.com/salary-dashboard-html",
+            owner: { username: "user4", name: "Sophia" }, // GitHub username and owner name
+        },
     ];
 
     const projectList = document.getElementById("project-list");
@@ -53,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p>${project.description}</p>
             <a href="${project.codeLink}" target="_blank">View Code</a>
             <a href="${project.htmlLink}" target="_blank">View HTML</a>
+            <a href="https://github.com/${project.owner.username}" target="_blank" class="owner-link">Visit ${project.owner.name}'s Profile</a>
         `;
         projectList.appendChild(projectElement);
     });
