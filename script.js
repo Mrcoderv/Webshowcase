@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Form  example  by samyog",
             description: "login form  example .",
             codeLink: "https://github.com/example/form.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/form.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/formraghav.html",
             owner: { username: "samyog7901", name: "samyog" }, // GitHub username and owner name
         },
        
