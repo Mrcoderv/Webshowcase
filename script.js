@@ -16,42 +16,42 @@ document.addEventListener("DOMContentLoaded", () => {
        {
             title: "Table example  by samyog",
             description: "table example .",
-            codeLink: "https://github.com/example/html&css.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/html&css.html",
+            codeLink: "https://github.com/Web-tech-/e/HTML and CSS/html&css.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/html&css.html",
             owner: { username: "samyog7901", name: "Samyog" }, // GitHub username and owner name
         },
         {
             title: "Employee Salary Dashboard by samyog ",
            description: "A table displaying employee salary details, including basic salary, tax deductions, and total annual salary. Designed for easy payroll management.",
-          codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/app.html", // Replace with your actual code URL
-         htmlLink: "https://mrcoderv.github.io/Web-tech-/app.html", // Replace with the hosted HTML link
+          codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/HTML and CSS/app.html", // Replace with your actual code URL
+         htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/app.html", // Replace with the hosted HTML link
             owner: { username: "samyog7901", name: "Samyog " }, // GitHub username and owner name
         },  {
             title: "Table.html by raghav",
             description: "This project show that table .",
             codeLink: "https://github.com/Mrcoderv/Web-tech-/blob/main/table.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/table.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/table.html",
             owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
         {
             title: "table2 by raghav ",
             description: "table example.",
-            codeLink: "https://github.com/example/project2-code",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/table2.html",
+            codeLink: "https://github.com/Web-tech-/HTML and CSS/project2-code",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/table2.html",
             owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
         {
             title: "Form  example  by raghav",
             description: "login form  example .",
-            codeLink: "https://github.com/example/formraghav.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/form.html",
+            codeLink: "https://github.com/Web-tech-/HTML and CSS/formraghav.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/form.html",
             owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
            {
             title: "Form  example  by samyog",
             description: "login form  example .",
-            codeLink: "https://github.com/example/form.html",
-            htmlLink: "https://mrcoderv.github.io/Web-tech-/formraghav.html",
+            codeLink: "https://github.com/example/HTML and CSS/form.html",
+            htmlLink: "https://mrcoderv.github.io/Web-tech-/HTML and CSS/formraghav.html",
             owner: { username: "samyog7901", name: "samyog" }, // GitHub username and owner name
         },
        
