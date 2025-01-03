@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
          {
             title: "Java script Example code",
             description: "leapyear ,traffic light,week discription, discount calculation ",
-            codeLink: "https://github.com/example/js.html",
+            codeLink: "https://github.com/Web-tech-/js.html",
             htmlLink: "https://mrcoderv.github.io/Web-tech-/js.html",
             owner: { username: "Mrcoderv", name: "Raghav" }, // GitHub username and owner name
         },
